@@ -1,0 +1,15 @@
+db:
+  host: 127.0.0.1
+  port: 3306
+  user: root
+  password:
+  db_name: cryptocompare
+collector:
+  from: 
+    - BTC
+    - XRP
+  to:
+    - USD
+    - EUR
+  schedule: 5s
+  service_url: "https://min-api.cryptocompare.com"
